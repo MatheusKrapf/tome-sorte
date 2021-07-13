@@ -1,24 +1,37 @@
 ﻿import { createGlobalStyle } from 'styled-components'
 
-const GlobalStyles = createGlobalStyle`
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+export default createGlobalStyle`
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: 0;
+        /* background-color: #E5E5E5; */
+    }
 
-  html {
-    font-size: 62.5%; // to use rem
-  }
+    html {
+        overflow-y: auto;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+    }
 
-  html, body, #__next {
-    height: 100%;
-    width: 100%;
-  }
+    body {
+        overflow-y: auto;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+    }
 
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-  }
+    body, input, button {
+        font-family: 'Mulish', sans-serif;
+        font-size: 16px;
+    }
+
+    h1, h2, h3, h4, h5, h6, strong {
+        font-weight: 700;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
 `
-
-export default GlobalStyles

@@ -1,15 +1,15 @@
 ﻿{
-  "name": "PWA App",
+  "name": "Tome Sorte - Landing Page",
   "short_name": "App",
   "icons": [
     {
-      "src": "/img/icon-192.png",
-      "sizes": "192x192",
+      "src": "/img/icon-32.png",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "/img/icon-512.png",
-      "sizes": "512x512",
+      "src": "/img/icon-16.png",
+      "sizes": "16x16",
       "type": "image/png"
     }
   ],
