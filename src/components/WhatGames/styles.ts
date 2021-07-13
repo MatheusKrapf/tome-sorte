@@ -21,7 +21,7 @@ export const Content = styled.div`
 export const TitleContent = styled.div`
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 100px;
 `
 
 export const Title = styled.div`

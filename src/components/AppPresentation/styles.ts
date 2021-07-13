@@ -5,6 +5,7 @@ export const Container = styled.div`
   padding-left: 140px;
   padding-right: 140px;
   background: rgba(229, 229, 229, 0.5);
+  position: relative;
 
   @media screen and (max-width: 768px) {
     padding-left: 34px;
@@ -26,7 +27,7 @@ export const SmartphoneImage = styled.div`
   @media screen and (max-width: 768px) {
     position: absolute;
     left: -22px;
-    top: 2833px;
+    top: 108px;
 
     img {
       width: 251px;
@@ -53,7 +54,7 @@ export const SmartphoneImageTwo = styled.div`
   @media screen and (max-width: 768px) {
     position: absolute;
     right: 0;
-    top: 3345px;
+    top: 582px;
 
     img {
       width: 142.92px;
